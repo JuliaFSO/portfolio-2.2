@@ -39,11 +39,11 @@ export default function Profile() {
       </div>
       <div className='section_column' style={{ width: '220px', textAlign: 'center' }}>
         <div>
-        <Link to="/julia_fachin_fullstack_developer.pdf" target='blank'>
+        <a href="/julia_fachin_fullstack_developer.pdf" target='blank'>
           <button className='button_profile' download="julia_fachin_fullstack_developer.pdf">
             Download CV <FontAwesomeIcon icon={faFileArrowDown} className='download_icon' />
           </button>
-        </Link>
+        </a>
         </div>
         <div>
           <Link to={'https://github.com/JuliaFSO/'} className='link' target='blank'>
