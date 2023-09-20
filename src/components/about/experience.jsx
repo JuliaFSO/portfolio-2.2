@@ -28,7 +28,7 @@ export default function Experience() {
             <span className='text' style={{ color: '#592698' }}><strong>07/2021 - 07/2022</strong></span>
             <h5 className='text'>Full Stack Ruby Developer |<span className="text"> OM30</span></h5>
             <ul className='text' style={{ listStyle: 'outside'}}>
-              <li>Modified Ruby on Rails/PostgreSQL/JavaScript software, resolving errors, adapting to new hardware, and upgrading interfaces.</li>
+              <li>Modified Ruby on Rails / PostgreSQL / JavaScript software, resolving errors, adapting to new hardware, and upgrading interfaces.</li>
               <li>Achieved a 40% increase in user satisfaction ratings and optimized performance for a 30% faster user experience.</li>
               <li>Participated in sprints, standups, code reviews, plannings and reviews meetings according to Agile Scrum Methodology.</li>
               <li>Implemented testing using RSpec to ensure the functionality of the code resulting in a significant increase in test coverage from 60% to 97%.</li>

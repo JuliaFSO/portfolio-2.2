@@ -81,14 +81,16 @@
 
 @media (max-width: 600px) {
   .main {
-    min-width: 338px;
+    padding: 0;
+    overflow-x: hidden;
   }
 
   .home_container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
   }
 
   .home_text {
@@ -103,13 +105,14 @@
   }
 
   .bg_img {
-    background-size: cover;
-    background-repeat: no-repeat;
     background-image: url(../../assets/images/julia_small.png);
-    width: 280px;
-    height: 280px;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    align-self: center;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .9);
   }
 
   .shape_block {
@@ -125,5 +128,11 @@
     padding: 0;
     font-size: 2em;
     text-align: center;
+  }
+
+  .text_container {
+    max-width: 80%;
+    text-align: center;
+    margin: 0.5em auto;
   }
 }

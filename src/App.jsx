@@ -6,13 +6,11 @@ import Routes from './Routes'
 function App() {
   return (
     <Router>
-      <div>
+      <div style={{padding: '0px', width: '100%'}}>
         <header>
           <Navbar />
         </header>
-        <main>
-          <Routes />
-        </main>
+        <Routes />
       </div>
     </Router>
   )
