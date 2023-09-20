@@ -14,23 +14,23 @@ export default function Contact() {
   return (
     <div className='contact_container'>
       <h1 className='head_title'>CONTACT</h1>
-      <div className='section'>
-        <div className='input_container_small'>
+      <div className='contact_section'>
+        <div className='message_container'>
           <h2>{`${"Let's chat!"}`}</h2>
-          <p className='text'>
+          <p className='text_contact'>
           {`${"Don't"}`} be shy to connect! {`${"I'm"}`} here and excited to chat about new projects,
           creative ideas, or anything that involves your vision.
             </p>
-          <p className='text'>
+          <p className='text_contact'>
             <FontAwesomeIcon icon={faLocationDot} className='icon' />
-            <span className='text'>Address: </span><strong>GTA, ON, Canada</strong></p>
-          <p className='text'>
+            <span className='text_contact'>Address: </span><strong>GTA, ON, Canada</strong></p>
+          <p className='text_contact'>
             <FontAwesomeIcon icon={faEnvelope} className='icon' />
-            <span className='text'>Email: </span>
+            <span className='text_contact'>Email: </span>
             <Link to="mailto:juliafso@mail.com"><strong>juliafso@mail.com</strong></Link></p>
-          <p className='text'>
+          <p className='text_contact'>
             <FontAwesomeIcon icon={faPhone} className='icon' />
-            <span className='text'>Phone: </span>
+            <span className='text_contact'>Phone: </span>
             <Link to="https://api.whatsapp.com/send?phone=16479399042"><strong>+1 647 939-9042</strong></Link></p>
           <div>
             <Link to={'https://github.com/JuliaFSO/'} className='link' target='blank'>

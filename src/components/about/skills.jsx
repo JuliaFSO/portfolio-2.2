@@ -2,9 +2,9 @@ import './about.css';
 
 export default function Skills() {
   return (
-    <div className='section'>
+    <div className='section_skills'>
       <div className='sub_title'>SKILLS</div>
-      <div className='section_column' style={{ width: '420px' }}>
+      <div className='skill_column'>
         <div>
           <span className='skill_text'>Javascript</span>
           <div className='chart_bar'>
@@ -41,7 +41,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      <div className='section_column' style={{ width: '420px' }}>
+      <div className='skill_column'>
         <div>
           <span className='skill_text'>Ruby on Rails</span>
           <div className='chart_bar'>

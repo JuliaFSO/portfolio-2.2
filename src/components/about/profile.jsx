@@ -10,9 +10,9 @@ import LinkedIn from '../../assets/images/linkedin_icon.png';
 
 export default function Profile() {
   return (
-    <div className='about_section'>
+    <div className='section_profile'>
       <div className='sub_title'>PROFILE</div>
-      <div className='section_column' style={{ width: '420px' }}>
+      <div className='profile_column'>
         <ul><li className='text'><FontAwesomeIcon icon={faUser} className='icon' />
               Name: <strong>Julia Fachin</strong></li>
           <li className='text'><FontAwesomeIcon icon={faFlag} className='icon' />
@@ -22,7 +22,7 @@ export default function Profile() {
           <li className='text'><FontAwesomeIcon icon={faLocationDot} className='icon' />
               Address: <strong>Toronto, Canada</strong></li></ul>
       </div>
-      <div className='section_column' style={{ width: '420px' }}>
+      <div className='profile_column'>
         <ul>
           <li className='text'><FontAwesomeIcon icon={faPhone} className='icon' />
               Telephone: <Link to="https://api.whatsapp.com/send?phone=16479399042" className='text'><strong>+1 647 939-9042</strong></Link></li>
@@ -30,14 +30,14 @@ export default function Profile() {
               Email: <Link to="mailto:juliafso@mail.com" className='text'><strong>juliafso@mail.com</strong></Link></li>
           <li className='text'><FontAwesomeIcon icon={faMicrophone} className='icon' />
               Languages:
-                <ul style={{ marginLeft: '110px', marginTop: '-30px'}}>
+                <ul style={{ marginLeft: '150px', marginTop: '-30px'}}>
                   <li className='text' style={{ fontSize: '1em'}}><strong>English</strong></li>
                   <li className='text' style={{ fontSize: '1em'}}><strong>Portuguese</strong></li>
                 </ul>
           </li>
         </ul>
       </div>
-      <div className='section_column' style={{ width: '220px', textAlign: 'center' }}>
+      <div className='profile_column' style={{ width: '220px', textAlign: 'center' }}>
         <div>
         <a href="/julia_fachin_fullstack_developer.pdf" target='blank'>
           <button className='button_profile' download="julia_fachin_fullstack_developer.pdf">

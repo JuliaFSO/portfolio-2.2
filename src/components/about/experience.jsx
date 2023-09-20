@@ -7,14 +7,14 @@ export default function Experience() {
   return (
     <div className='section'>
     <div className='sub_title'>RELEVANT EXPERIENCE</div>
-      <div className='section_column' style={{ width: '80vw' }}>
-        <ul>
+      <div className='section_column_about' style={{ width: '80vw' }}>
+        <ul style={{ padding: '3.5rem' }}>
           <li className='timeline_li' style={{ position: 'relative', marginBottom: '30px' }}>
             <div className='timeline_icon'>
               <FontAwesomeIcon icon={faBriefcase} className='icon' style={{ color: '#fff' }} /></div>
             <span className='text' style={{ color: '#592698' }}><strong>2022 - Present</strong></span>
             <h5 className='text'> Self-Directed Skill Development and Personal Projects</h5>
-            <ul className='text' style={{ listStyle: 'outside' }}>
+            <ul className='text' style={{ listStyle: 'outside', paddingLeft: '1.5rem'}}>
               <li>Engaging in intensive self-study to master a range of modern web development technologies.</li>
               <li>Executing an array of personal projects to refine skills.</li>
               <li>Focusing on advancing expertise in web development, including React and other front-end technologies.</li>
@@ -27,7 +27,7 @@ export default function Experience() {
               <FontAwesomeIcon icon={faBriefcase} className='icon' style={{ color: '#fff' }} /></div>
             <span className='text' style={{ color: '#592698' }}><strong>07/2021 - 07/2022</strong></span>
             <h5 className='text'>Full Stack Ruby Developer |<span className="text"> OM30</span></h5>
-            <ul className='text' style={{ listStyle: 'outside'}}>
+            <ul className='text' style={{ listStyle: 'outside', paddingLeft: '1.5rem'}}>
               <li>Modified Ruby on Rails / PostgreSQL / JavaScript software, resolving errors, adapting to new hardware, and upgrading interfaces.</li>
               <li>Achieved a 40% increase in user satisfaction ratings and optimized performance for a 30% faster user experience.</li>
               <li>Participated in sprints, standups, code reviews, plannings and reviews meetings according to Agile Scrum Methodology.</li>
