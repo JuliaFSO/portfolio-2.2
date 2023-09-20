@@ -62,12 +62,13 @@
 .section_skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .skill_column {
-  width: calc(50% - 10px);
-  margin-bottom: 20px;
+  width: calc(40% - 10px);
+  margin-bottom: 5px;
+  padding: 0 30px;
 }
 
 .section_profile {

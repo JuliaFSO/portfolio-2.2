@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <div className='section'>
     <div className='sub_title'>RELEVANT EXPERIENCE</div>
-      <div className='section_column_about' style={{ width: '80vw' }}>
+      <div className='section_column_about' style={{ width: '90vw' }}>
         <ul style={{ padding: '3.5rem' }}>
           <li className='timeline_li' style={{ position: 'relative', marginBottom: '30px' }}>
             <div className='timeline_icon'>
