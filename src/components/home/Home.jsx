@@ -8,15 +8,16 @@ function Home() {
     <main className='main'>
       <div className='shape_block'></div>
       <div className='home_container'>
-        <div className='bg_img col-4 col-lg-8'>
+        <div className='bg_img'>
         </div>
-        <div className='text_container col-8 col-lg-8'>
+        <div className='text_container'>
           <h1 className='h1_color'>{`${"I'M"}`} JULIA FACHIN</h1>
           <h1 className='h1_sub_color'>FULL STACK DEVELOPER</h1>
           <p className='home_text'>
-            A full stack developer from Brazil, with HR background,
-            and a real passion for Front-end magic, based on Canada!
-          {`${" Let's "}`}code and create something awesome together!</p>
+            Greetings from Canada! {`${"I'm"}`} a <span className='highlight'>Full Stack Developer</span> with a unique twist {`${"– "}`}
+            an HR background that adds a human touch to my code. Driven by my love for
+            crafting <span className='highlight'>Front-end</span> magic, I'm eager to collaborate on coding adventures that bring ideas to life.
+            {`${" Let's"}`} embark on a coding journey together!</p>
         </div>
       </div>
     </main>

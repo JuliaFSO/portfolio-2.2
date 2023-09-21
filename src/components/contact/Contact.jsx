@@ -23,11 +23,11 @@ export default function Contact() {
             </p>
           <p className='text_contact'>
             <FontAwesomeIcon icon={faLocationDot} className='icon' />
-            <span className='text_contact'>Address: </span><strong>GTA, ON, Canada</strong></p>
+            <span className='text_contact'>Address: </span><strong>Toronto, ON, Canada</strong></p>
           <p className='text_contact'>
             <FontAwesomeIcon icon={faEnvelope} className='icon' />
             <span className='text_contact'>Email: </span>
-            <Link to="mailto:juliafso@mail.com"><strong>juliafso@mail.com</strong></Link></p>
+            <Link to="mailto:juliafso@gmail.com"><strong>juliafso@gmail.com</strong></Link></p>
           <p className='text_contact'>
             <FontAwesomeIcon icon={faPhone} className='icon' />
             <span className='text_contact'>Phone: </span>

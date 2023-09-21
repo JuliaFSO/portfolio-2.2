@@ -8,11 +8,11 @@ export default function About() {
     <div className='about_container'>
       <h1 className='head_title'>ABOUT ME</h1>
       <div className='bg_img_profile'></div>
-        <Profile />
+      <Profile />
       <hr className='line' />
-        <Skills />
+      <Skills />
       <hr className='line' />
-        <Experience />
+      <Experience />
     </div>
   )
 }

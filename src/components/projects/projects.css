@@ -261,7 +261,7 @@
 
   .modal_content {
     max-width: 75%;
-    left: 47%;
+    padding: 20px;
   }
 
   .proj_img {

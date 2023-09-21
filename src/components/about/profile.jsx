@@ -15,8 +15,6 @@ export default function Profile() {
       <div className='profile_column'>
         <ul><li className='text'><FontAwesomeIcon icon={faUser} className='icon' />
               Name: <strong>Julia Fachin</strong></li>
-          <li className='text'><FontAwesomeIcon icon={faFlag} className='icon' />
-              Nationality: <strong>Brazilian</strong></li>
           <li className='text'><FontAwesomeIcon icon={faGear} className='icon' />
               Experience: <strong>2 years</strong></li>
           <li className='text'><FontAwesomeIcon icon={faLocationDot} className='icon' />

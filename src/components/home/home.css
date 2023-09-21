@@ -54,6 +54,14 @@
   z-index: 13;
 }
 
+
+.highlight {
+  font-family: 'Roboto', sans-serif;
+  color: #F56476;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
 .home_text {
   padding: 0.1em;
   color: #50514F;
@@ -91,6 +99,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 1em;
+    height: 100svh;
   }
 
   .home_text {
@@ -107,8 +116,8 @@
   .bg_img {
     background-image: url(../../assets/images/julia_small.png);
     background-size: contain;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     max-width: 100%;
     margin: 0 auto;
@@ -131,7 +140,6 @@
   }
 
   .text_container {
-    max-width: 80%;
     text-align: center;
     margin: 0.5em auto;
   }
