@@ -141,5 +141,6 @@
   .text_container {
     text-align: center;
     margin: 0.5em auto;
+    padding-bottom: 25px;
   }
 }
