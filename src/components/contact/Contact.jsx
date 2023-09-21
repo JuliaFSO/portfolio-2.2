@@ -16,11 +16,12 @@ export default function Contact() {
       <h1 className='head_title'>CONTACT</h1>
       <div className='contact_section'>
         <div className='message_container'>
-          <h2>{`${"Let's chat!"}`}</h2>
+          <h2>{`${"Start a Conversation!"}`}</h2>
           <p className='text_contact'>
-          {`${"Don't"}`} be shy to connect! {`${"I'm"}`} here and excited to chat about new projects,
-          creative ideas, or anything that involves your vision.
-            </p>
+            {`${"I'm"}`} just a message away, excited to talk about your next project,
+              innovative concepts, or anything on your mind.
+              Feel free to get in touch!
+          </p>
           <p className='text_contact'>
             <FontAwesomeIcon icon={faLocationDot} className='icon' />
             <span className='text_contact'>Address: </span><strong>Toronto, ON, Canada</strong></p>
