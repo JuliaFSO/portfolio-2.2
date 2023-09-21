@@ -244,6 +244,12 @@
   height: 300px;
 }
 
+@media (hover: none) {
+  .overlay {
+    opacity: 0.9;
+  }
+}
+
 @media (min-width: 100px) and (max-width: 575px) {
 .projects_container {
   display: flex;
