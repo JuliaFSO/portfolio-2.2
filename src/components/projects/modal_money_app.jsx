@@ -16,28 +16,28 @@ export default function ModalMoneyApp({ closeModal }) {
            <div className='modal_content'>
             <h2 className='modal_title'>My Money App</h2>
               <div className='modal_info'>
-                <div className='text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
+                <div className='projects_text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
                   App is a payment cycle registration and analysis application.
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFileLines} className='icon' />Project: <strong>Web App</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFolder} className='icon' />Category: <strong>React/Redux Course</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCode} className='icon' />Language: <strong>React, Redux HTML, CSS</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCalendar} className='icon' />Date: <strong>03/2023</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <img src={Github} className='icon' alt='Github Money App' width={15} height={15} />
                     Github: <Link to={'https://github.com/JuliaFSO/my-money-app'} className='link' target='blank'>
                       <strong>github.com/JuliaFSO/my-money-app</strong>
                   </Link>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faExternalLink} className='icon' />Preview:
                   <strong> Soon!</strong>
                 </div>

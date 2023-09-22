@@ -14,7 +14,20 @@
   padding-bottom: 60px;
 }
 
-.head_title_projects {
+.projects-left-dotted-shape {
+  position: absolute;
+  left: -108px;
+  top: 11px;
+  height: 480px;
+  width: 165px;
+  transform: rotate(203deg);
+  z-index: 1;
+  background: radial-gradient(circle at center, #592698 10%, transparent 20%), transparent;
+  background-size: 19px 18px;
+  background-attachment: fixed;
+}
+
+.projects_head_title {
   padding: 1em;
   margin: 0px;
   font-size: 2.5em;
@@ -201,7 +214,7 @@
   left: 0;
 }
 
-.text {
+.projects_text {
   color: #50514F;
   text-align: left;
   font-family: 'Roboto', sans-serif;
@@ -209,7 +222,7 @@
   line-height: 1.5em;
 }
 
-.text a {
+.projects_text a {
   color: #50514F;
   text-align: left;
   font-family: 'Roboto', sans-serif;
@@ -217,7 +230,7 @@
   text-decoration: none;
 }
 
-.text a:hover {
+.projects_text a:hover {
   text-decoration: underline;
 }
 
@@ -242,6 +255,16 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 5px;
   width: 500px;
   height: 300px;
+}
+
+.proj_title {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 @media ( hover: none ) and (pointer: coarse) {
@@ -277,8 +300,43 @@
     width: 220px;
     height: auto;
   }
-}
 
+  .projects-left-dotted-shape {
+    position: absolute;
+    left: -145px;
+    top: -17px;
+    height: 262px;
+    width: 166px;
+    transform: rotate(15deg);
+    z-index: 1;
+    background: radial-gradient(circle at center, #592698 10%, transparent 20%), transparent;
+    background-size: 19px 18px;
+    background-attachment: fixed;
+  }
+
+  .projects_text {
+    font-size: 1.1em;
+  }
+
+  .modal_title {
+    font-size: 1.3em;
+  }
+
+  .projects_head_title {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+  }
+
+  .card {
+    width: 250px;
+    height: 150px;
+  }
+
+  .proj_title {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+  }
+}
 
 @media (min-width: 576px) {
 .projects_container {
@@ -291,7 +349,7 @@
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 60px;
-}
+  }
 
 .projects_cards {
     grid-template-columns: 1fr;

@@ -6,7 +6,7 @@ import Experience from './experience.jsx';
 export default function About() {
   return (
     <div className='about_container'>
-      <h1 className='head_title'>ABOUT ME</h1>
+      <h1 className='about_head_title'>ABOUT ME</h1>
       <div className='bg_img_profile'></div>
       <Profile />
       <hr className='line' />

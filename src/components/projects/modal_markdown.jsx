@@ -16,28 +16,28 @@ export default function ModalMarkdown({ closeModal }) {
            <div className='modal_content'>
             <h2 className='modal_title'>Markdown Previewer</h2>
               <div className='modal_info'>
-                <div className='text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
+                <div className='projects_text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
                   An app with real-time markdown formatting.
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFileLines} className='icon' />Project: <strong>Web App</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFolder} className='icon' />Category: <strong>Web Development Course</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCode} className='icon' />Language: <strong>React, HTML, CSS</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCalendar} className='icon' />Date: <strong>05/2023</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <img src={Github} className='icon' alt='Github Markdown Previewer' width={15} height={15} />
                   Github: <Link to={'https://github.com/JuliaFSO/markdown-previewer'} className='link' target='blank'>
                     <strong>github.com/JuliaFSO/markdown-previewer</strong>
                   </Link>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faExternalLink} className='icon' />
                   Preview: <Link to={'https://juliafso-markdownpreviewer.netlify.app/'} className='link' target='blank'>
                     <strong>Click here to preview!</strong>

@@ -52,8 +52,8 @@ export default function Skills() {
         <div>
           <span className='skill_text'>PostgreSQL</span>
           <div className='chart_bar'>
-            <span className='item_progress' data-percent="40" style={{width: '40%'}}></span>
-            <span className='percent' style={{right: '60%'}}>40%<span className='arrow'></span></span>
+            <span className='item_progress' data-percent="45" style={{width: '45%'}}></span>
+            <span className='percent' style={{right: '55%'}}>45%<span className='arrow'></span></span>
           </div>
         </div>
         <div>

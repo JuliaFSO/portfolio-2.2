@@ -6,7 +6,7 @@ function Home() {
   return (
 
     <main className='main'>
-      <div className='shape_block'></div>
+      <div className="left-dotted-shape"></div>
       <div className='home_container'>
         <div className='bg_img'>
         </div>
@@ -20,6 +20,7 @@ function Home() {
             {`${" Let's"}`} embark on a coding journey together!</p>
         </div>
       </div>
+      <div className="right-dotted-shape"></div>
     </main>
   )
 }

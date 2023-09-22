@@ -16,28 +16,28 @@ export default function ModalToDoApp({ closeModal }) {
            <div className='modal_content'>
             <h2 className='modal_title'>ToDo App</h2>
               <div className='modal_info'>
-                <div className='text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
+                <div className='projects_text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
                   Streamline your daily to-dos.
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFileLines} className='icon' />Project: <strong>Web App</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFolder} className='icon' />Category: <strong>React/Redux Course</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCode} className='icon' />Language: <strong>React, Redux HTML, CSS</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCalendar} className='icon' />Date: <strong>07/2023</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <img src={Github} className='icon' alt='Github ToDo App' width={15} height={15} />
                   Github: <Link to={'https://github.com/JuliaFSO/todo-app'} className='link' target='blank'>
                     <strong>github.com/JuliaFSO/todo-app</strong>
                   </Link>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faExternalLink} className='icon' />Preview:
                   <strong> Soon!</strong>
                 </div>

@@ -29,14 +29,15 @@ export default function Projects() {
 
   return (
     <div className='projects_container'>
-      <h1 className='head_title_projects'>PROJECTS</h1>
+      <h1 className='projects_head_title'>PROJECTS</h1>
+      <div className="projects-left-dotted-shape"></div>
       <div className='section'>
         <div className='projects_cards'>
           <div className='card_container'>
             <div className='card'
                 onClick={() => openModal('Indicaria')} style={{backgroundImage: `url(${indicaria})`}}>
               <div className='overlay'>
-                <h1>Indicaria</h1>
+                <h1 className='proj_title'>Indicaria</h1>
               </div>
             </div>
           </div>
@@ -44,7 +45,7 @@ export default function Projects() {
             <div className='card'
                 onClick={() => openModal('CryptoWallet')} style={{backgroundImage: `url(${crypto})`}}>
               <div className='overlay'>
-                <h1>Crypto Wallet</h1>
+                <h1 className='proj_title'>Crypto Wallet</h1>
               </div>
             </div>
           </div>
@@ -52,7 +53,7 @@ export default function Projects() {
             <div className='card'
                 onClick={() => openModal('Markdown')}  style={{backgroundImage: `url(${markdown})`}}>
               <div className='overlay'>
-                <h1>Markdown Previewer</h1>
+                <h1 className='proj_title'>Markdown Previewer</h1>
               </div>
             </div>
           </div>
@@ -60,7 +61,7 @@ export default function Projects() {
             <div className='card'
                 onClick={() => openModal('ReactGiphy')} style={{backgroundImage: `url(${react_giphy})`}}>
               <div className='overlay'>
-                <h1>React Giphy</h1>
+                <h1 className='proj_title'>React Giphy</h1>
               </div>
             </div>
           </div>
@@ -68,7 +69,7 @@ export default function Projects() {
             <div className='card'
                 onClick={() => openModal('ToDoApp')} style={{backgroundImage: `url(${toDo})`}}>
               <div className='overlay'>
-                <h1>ToDo App</h1>
+                <h1 className='proj_title'>ToDo App</h1>
               </div>
             </div>
           </div>
@@ -76,7 +77,7 @@ export default function Projects() {
             <div className='card'
                 onClick={() => openModal('MoneyApp')} style={{backgroundImage: `url(${money})`}}>
               <div className='overlay'>
-                <h1>Money App</h1>
+                <h1 className='proj_title'>Money App</h1>
               </div>
             </div>
           </div>

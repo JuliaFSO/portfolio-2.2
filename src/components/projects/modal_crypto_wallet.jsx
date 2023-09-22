@@ -16,28 +16,28 @@ export default function ModalCryptoWallet({ closeModal }) {
            <div className='modal_content'>
             <h2 className='modal_title'>Crypto Wallet</h2>
               <div className='modal_info'>
-                <div className='text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
+                <div className='projects_text' style={{ textAlign: 'center', paddingBottom: '10px' }} >
                   An app to register and keep up with your cryptocoins.
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFileLines} className='icon' />Project: <strong>Web App</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faFolder} className='icon' />Category: <strong>Ruby on Rails Course</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCode} className='icon' />Language: <strong>Ruby on Rails, HTML, CSS</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faCalendar} className='icon' />Date: <strong>11/2022</strong>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <img src={Github} className='icon' alt='Github Crypto Wallet' width={15} height={15} />
                   Github: <Link to={'https://github.com/JuliaFSO/crypto_wallet'} className='link' target='blank'>
                     <strong>github.com/JuliaFSO/crypto_wallet</strong>
                   </Link>
                 </div>
-                <div className='text' >
+                <div className='projects_text' >
                   <FontAwesomeIcon icon={faExternalLink} className='icon' />Preview: <strong>Soon!</strong>
                 </div>
               </div>
