@@ -52,6 +52,15 @@
   font-weight: bolder;
 }
 
+.home_arrow {
+  display: inline-block;
+  padding: 4px;
+  transform: translateY(33.5px) rotate(45deg) skew(3deg, 3deg) translateX(-27px);
+  bottom: 10px;
+  position: absolute;
+  background-color: #592698;
+}
+
 .home_text {
   padding: 0.1em;
   color: #50514F;
@@ -61,6 +70,7 @@
   font-size: 1.5em;
   margin-left: 1.5em;
   z-index: 14;
+  background-color: white;
 }
 
 .bg_img {

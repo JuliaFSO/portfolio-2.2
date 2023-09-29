@@ -8,8 +8,7 @@ function Home() {
     <main className='main'>
       <div className="left-dotted-shape"></div>
       <div className='home_container'>
-        <div className='bg_img'>
-        </div>
+        <div className='bg_img'></div>
         <div className='text_container'>
           <h1 className='h1_color'>{`${"I'M"}`} JULIA FACHIN</h1>
           <h1 className='h1_sub_color'>FULL STACK DEVELOPER</h1>

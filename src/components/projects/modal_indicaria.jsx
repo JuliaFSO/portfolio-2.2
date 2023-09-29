@@ -23,7 +23,7 @@ export default function ModalIndicaria({ closeModal }) {
                   <FontAwesomeIcon icon={faFileLines} className='icon' />Project: <strong>Web App</strong>
                 </div>
                 <div className='projects_text'>
-                  <FontAwesomeIcon icon={faFolder} className='icon' />Category: <strong>Bootcamp Final Project</strong>
+                  <FontAwesomeIcon icon={faFolder} className='icon' />Category: <strong>Bootcamp Final Project </strong>
                 </div>
                 <div className='projects_text'>
                   <FontAwesomeIcon icon={faCode} className='icon' />Language: <strong>Ruby on Rails, Javascript, HTML, CSS</strong>
@@ -38,7 +38,10 @@ export default function ModalIndicaria({ closeModal }) {
                   </Link>
                 </div>
                 <div className='projects_text'>
-                  <FontAwesomeIcon icon={faExternalLink} className='icon' />Preview: <strong>Soon!</strong>
+                  <FontAwesomeIcon icon={faExternalLink} className='icon' />
+                  Preview: <Link to={'https://indicaria.onrender.com/'} className='link' target='blank'>
+                    <strong> Click here to preview!</strong>
+                  </Link>
                 </div>
               </div>
               <img src={IndicariaImage} className='proj_img' alt="Indicaria" />
