@@ -65,9 +65,9 @@
 }
 
 .skill_column {
-  width: calc(40% - 10px);
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 5px;
-  padding: 0 30px;
 }
 
 .section_profile {
@@ -209,56 +209,12 @@
 .skill_text {
   display: block;
   margin-bottom: 18px;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   color: #50514F;
-}
-
-.chart_bar {
-  display: block;
-  height: 7px;
-  position: relative;
-  width: 100%;
-  background: #e9ecef;
-  margin-bottom: 45px;
-  border-radius: 10px;
-}
-
-.item_progress {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1%;
-  background-color: #592698;
-  border-radius: 10px;
-}
-
-.percent {
-  height: 32px;
-  margin-top: -48px;
-  position: absolute;
-  right: calc(100% - 40px);
-  width: 40px;
-  color: #fff;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 33px;
-  top: 50%;
+  padding: 10px;
   text-align: center;
-  margin-right: -24px;
-  background-color: #592698;
-}
-
-.arrow {
-  display: inline-block;
-  padding: 4px;
-  transform: translateY(33.5px) rotate(45deg) skew(3deg, 3deg) translateX(-27px);
-  bottom: 10px;
-  position: absolute;
-  background-color: #592698;
 }
 
 .timeline_icon {
@@ -288,6 +244,37 @@
     left: -30px;
     bottom: 0;
     border-left: 1px solid #333;
+}
+
+.skill_icon {
+  height: 25px;
+  width: auto;
+  padding: 8px 5px;
+  align-self: center;
+  transform: rotate(315deg);
+}
+
+.skill_icon_bkg {
+  width: 40px;
+  height: 40px;
+  left: -50px;
+  right: 0;
+  transform: rotate(45deg);
+  line-height: 40px;
+  text-align: center;
+  z-index: 1;
+  border-radius: 8.5px;
+  color: #fff;
+  background-color: #592698;
+}
+
+.skill_set {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 0.5em 1.5em;
+  width: 90px;
 }
 
 .profile-left-dotted-shape {
